@@ -5,6 +5,6 @@ export default function Box(props){
         backgroundColor: props.on? "#222222" : "#cccccc"
     }
     return(
-        <p onMouseMove={() => props.clicked(props.id)} style={styles} className="box--elements"></p>
+        <p onMouseOver={() => props.clicked(props.id)} style={styles} className="box--elements"></p>
     )
 }
